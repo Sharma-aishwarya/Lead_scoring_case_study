@@ -24,7 +24,7 @@ The lead scoring model is based on a logistic regression approach, utilizing 12 
 These features play a crucial role in predicting lead conversion, and X Education should focus on leveraging them to maximize their sales potential.
 
 ## Model Evaluation
-The model demonstrates a good level of accuracy, with an overall accuracy of 77.05%. The sensitivity (true positive rate) is 82.89%, indicating the model's ability to correctly identify positive instances (converted leads). The specificity (true negative rate) stands at 73.49%, reflecting the model's proficiency in identifying negative instances (non-converted leads).
+The model demonstrates a good level of accuracy, with an overall accuracy of 80.30%. The sensitivity (true positive rate) is 64.90%, indicating the model's ability to correctly identify positive instances (converted leads). The specificity (true negative rate) stands at 89.72%, reflecting the model's proficiency in identifying negative instances (non-converted leads).
 
 ## Recommendations
 Based on the analysis and model findings, the following recommendations can be made:
@@ -41,9 +41,9 @@ By implementing these recommendations, X Education can enhance their lead conver
 ## Repository Structure
 The repository contains the following files and directories:
 
-- `main.py`: The main Python file containing the code for data preprocessing, model training, and evaluation.
-- `docs/`: This directory includes two Word documents in PDF format, providing detailed documentation and analysis of the project.
-- `presentation/`: This directory contains a PDF presentation summarizing the project and its findings.
+- `Lead_Scoring_Assignment.ipynb`: The main Python file containing the code for data preprocessing, model training, and evaluation.
+- `subjective questions/', 'summary/`: This directory includes two Word documents in PDF format, providing detailed documentation and analysis of the project.
+- `lead_scoring_CaseStudy_Presentation/`: This directory contains a PDF presentation summarizing the project and its findings.
 - `README.md`: The file you are currently reading, providing an overview and details about the project.
 
 Feel free to adjust the details based on your actual file and folder structure.
